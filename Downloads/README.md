@@ -1,7 +1,8 @@
-###Cousera R Programming: Programming Assignment 2
+##Cousera R Programming: Programming Assignment 2
 ========================================================
-##This code shows how to use the functions in the ProgrammingAssignment2.R Script:
-##The function makeCacheMatrix() creates a list containing a function set() to creates a square matrix ##compatible with solve() function, gets its value, set the value of the inverse, and then get the value of the inverse. Use the matrix variable below to test the function.
+###This code shows how to use the functions in the ProgrammingAssignment2.R Script:
+
+###The function makeCacheMatrix() creates a list containing a function set() to creates a square matrix ##compatible with solve() function, gets its value, set the value of the inverse, and then get the value of the inverse. Use the matrix variable below to test the function.
 
 matrix <- makeCacheMatrix( matrix(rbind(c(-sqrt(2),-sqrt(4)),c(-sqrt(4),-sqrt(2))), nrow = 2, ncol = 2) )
 summary(matrix)
@@ -25,7 +26,7 @@ matrix$getInverse()
 #[2,] -1.0000000  0.7071068
 ```
 
-##The following function calculates the inverse of the square matrix.
+###The following function calculates the inverse of the square matrix.
 
 cacheSolve(matrix)
 ```{r}
