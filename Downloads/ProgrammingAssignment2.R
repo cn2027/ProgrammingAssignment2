@@ -1,6 +1,4 @@
-#The function makeCacheMatrix() creates a list containing a function set() to creates a square matrix compatible with solve() function, 
-#get its value, set the value of the inverse,
-#and then get the value of the inverse.
+#The function makeCacheMatrix() creates a list containing a function set() to creates a square matrix compatible with solve() function, get its value, set the value of the inverse, and then get the value of the inverse.
 makeCacheMatrix <- function(x = numeric()) {
         I <- NULL
         set <- function(y) {
@@ -26,9 +24,4 @@ cacheSolve <- function(x, ...) {
         x$setInverse(I)
         I
 }
-a <- makeCacheMatrix( matrix(rbind(c(-sqrt(2),-sqrt(4)),c(-sqrt(4),-sqrt(2))), nrow = 2, ncol = 2) )
-summary(a)
-a$get()
-a$getInverse()
-cacheSolve(a)
 
