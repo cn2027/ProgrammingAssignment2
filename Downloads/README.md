@@ -33,10 +33,17 @@ cacheSolve(matrix)
 #[1,]  2.8284271   -2
 #[2,] -0.7071068    1
 ```{r}
+#           Length Class  Mode    
+#set        1      -none- function
+#get        1      -none- function
+#setInverse 1      -none- function
+#getInverse 1      -none- function
+matrix$get()
 ```
 
 You can also embed plots, for example:
 
 ```{r}
+
 ```
 
