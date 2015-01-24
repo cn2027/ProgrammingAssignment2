@@ -40,6 +40,7 @@ Run the function again to get the cached value
 
 ```{r}
 cacheSolve(matrix)
+#getting cached data
 #           [,1]       [,2]
 #[1,]  0.7071068 -1.0000000
 #[2,] -1.0000000  0.7071068
